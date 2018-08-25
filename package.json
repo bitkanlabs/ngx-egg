@@ -1,0 +1,71 @@
+{
+  "name": "neg",
+  "version": "0.0.1",
+  "description": "Neg - Egg Framework for Angular",
+  "dependencies": {
+    "@angular/animations": "^6.1.0",
+    "@angular/common": "^6.1.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "@angular/http": "^6.1.0",
+    "@angular/platform-browser": "^6.1.0",
+    "@angular/platform-browser-dynamic": "^6.1.0",
+    "@angular/platform-server": "^6.1.0",
+    "@angular/pwa": "^0.7.0",
+    "@angular/router": "^6.1.0",
+    "@angular/service-worker": "^6.1.0",
+    "@nguniversal/common": "^6.1.0",
+    "@nguniversal/module-map-ngfactory-loader": "^6.1.0",
+    "egg": "^2.10.0",
+    "egg-view-angular": "^0.2.0",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.2.2",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^6.1.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.8.2",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.19.6",
+    "eslint": "^5.4.0",
+    "eslint-config-egg": "^7.1.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
+    "autod": "autod",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "egg",
+    "egg-framework"
+  ],
+  "author": "Clark Wang",
+  "files": [
+    "app",
+    "config",
+    "lib",
+    "index.js"
+  ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
+  "license": "MIT"
+}
