@@ -1,6 +1,6 @@
 {
-  "name": "neg-framework",
-  "version": "0.0.5",
+  "name": "ngx-egg",
+  "version": "0.0.1",
   "description": "Neg - Egg Framework for Angular",
   "dependencies": {
     "@angular/animations": "^6.1.0",
@@ -50,8 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/bitkanlabs/ngx-egg.git"
   },
+  "bugs": {
+    "url": "https://github.com/bitkanlabs/ngx-egg/issues"
+  },
+  "homepage": "https://github.com/bitkanlabs/ngx-egg#readme",
   "keywords": [
     "egg",
     "egg-framework"
