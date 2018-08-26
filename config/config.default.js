@@ -4,8 +4,6 @@ const path = require('path');
 module.exports = appInfo => {
   const config = {};
 
-  config.middleware = [];
-
   config.static = {
     dir: path.join(appInfo.baseDir, 'app/browser'),
     prefix: '/',
