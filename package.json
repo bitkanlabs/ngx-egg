@@ -1,6 +1,6 @@
 {
   "name": "neg-framework",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Neg - Egg Framework for Angular",
   "dependencies": {
     "@angular/animations": "^6.1.0",
