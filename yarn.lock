@@ -2276,9 +2276,9 @@ egg-utils@^2.2.0, egg-utils@^2.4.0:
     mkdirp "^0.5.1"
     utility "^1.13.1"
 
-egg-view-angular@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/egg-view-angular/-/egg-view-angular-0.3.0.tgz#9a23b48d164d9c74a4469a6f14cbe19ad9f7c21b"
+egg-view-angular@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/egg-view-angular/-/egg-view-angular-0.3.1.tgz#5b06613ed33acd1d535f5324e10f39858552769e"
   dependencies:
     "@nguniversal/common" "^6.1.0"
     "@nguniversal/module-map-ngfactory-loader" "^6.1.0"
