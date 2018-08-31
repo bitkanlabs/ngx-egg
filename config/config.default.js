@@ -4,22 +4,22 @@ const path = require('path');
 module.exports = appInfo => {
   const config = {};
 
+  config.angular = {
+    dist: path.join(appInfo.baseDir, 'app'),
+  };
+
   config.static = {
-    dir: path.join(appInfo.baseDir, 'app/browser'),
+    dir: path.join(config.angular.dist, 'browser'),
     prefix: '/',
   };
 
   config.view = {
-    root: path.join(appInfo.baseDir, 'app/browser'),
+    root: path.join(config.angular.dist, 'browser'),
     mapping: {
       '.html': 'angular',
     },
     defaultExtension: '.html',
     defaultViewEngine: 'angular',
-  };
-
-  config.angular = {
-    main: path.join(appInfo.baseDir, 'app/server/main'),
   };
 
   return config;
