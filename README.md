@@ -1,19 +1,18 @@
-# neg
+# Ngx-Egg
 
 Egg Framework for Angular
 
 ## QuickStart
 
 ```bash
-$ npm install
-$ npm test
+$ yarn add ngx-egg
 ```
 
 publish your framework to npm, then change app's dependencies:
 
 ```js
 // {app_root}/index.js
-require('neg').startCluster({
+require('ngx-egg').startCluster({
   baseDir: __dirname,
   // port: 7001, // default to 7001
 });
