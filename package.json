@@ -1,6 +1,6 @@
 {
   "name": "ngx-egg",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Neg - Egg Framework for Angular",
   "dependencies": {
     "@angular/animations": "^6.1.0",
