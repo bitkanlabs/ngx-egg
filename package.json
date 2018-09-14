@@ -7,6 +7,7 @@
     "@angular/common": "^6.1.0",
     "@angular/compiler": "^6.1.0",
     "@angular/core": "^6.1.0",
+    "@angular/http": "^6.1.0",
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/platform-server": "^6.1.0",
@@ -26,8 +27,8 @@
     "egg-mock": "^3.19.6",
     "eslint": "^5.4.0",
     "eslint-config-egg": "^7.1.0",
-    "webstorm-disable-index": "^1.2.0",
-    "typescript": "^2.9.2 <2.10"
+    "typescript": "^2.9.2 <2.10",
+    "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
